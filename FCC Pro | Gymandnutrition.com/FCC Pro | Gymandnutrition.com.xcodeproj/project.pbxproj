@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F59A8DD81E91D99C00498FEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A8DD71E91D99C00498FEF /* AppDelegate.swift */; };
+		F59A8DDA1E91D99C00498FEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A8DD91E91D99C00498FEF /* ViewController.swift */; };
+		F59A8DDD1E91D99C00498FEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59A8DDB1E91D99C00498FEF /* Main.storyboard */; };
+		F59A8DDF1E91D99C00498FEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59A8DDE1E91D99C00498FEF /* Assets.xcassets */; };
+		F59A8DE21E91D99C00498FEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59A8DE01E91D99C00498FEF /* LaunchScreen.storyboard */; };
+		F59A8DED1E91D99D00498FEF /* FCC_Pro___Gymandnutrition_comTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A8DEC1E91D99D00498FEF /* FCC_Pro___Gymandnutrition_comTests.swift */; };
+		F59A8DF81E91D99D00498FEF /* FCC_Pro___Gymandnutrition_comUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A8DF71E91D99D00498FEF /* FCC_Pro___Gymandnutrition_comUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F59A8DE91E91D99D00498FEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F59A8DCC1E91D99C00498FEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F59A8DD31E91D99C00498FEF;
+			remoteInfo = "FCC Pro | Gymandnutrition.com";
+		};
+		F59A8DF41E91D99D00498FEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F59A8DCC1E91D99C00498FEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F59A8DD31E91D99C00498FEF;
+			remoteInfo = "FCC Pro | Gymandnutrition.com";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F59A8DD41E91D99C00498FEF /* FCC Pro | Gymandnutrition.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FCC Pro | Gymandnutrition.com.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59A8DD71E91D99C00498FEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F59A8DD91E91D99C00498FEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F59A8DDC1E91D99C00498FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F59A8DDE1E91D99C00498FEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F59A8DE11E91D99C00498FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F59A8DE31E91D99C00498FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59A8DE81E91D99D00498FEF /* FCC Pro | Gymandnutrition.comTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FCC Pro | Gymandnutrition.comTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59A8DEC1E91D99D00498FEF /* FCC_Pro___Gymandnutrition_comTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FCC_Pro___Gymandnutrition_comTests.swift"; sourceTree = "<group>"; };
+		F59A8DEE1E91D99D00498FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59A8DF31E91D99D00498FEF /* FCC Pro | Gymandnutrition.comUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FCC Pro | Gymandnutrition.comUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59A8DF71E91D99D00498FEF /* FCC_Pro___Gymandnutrition_comUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FCC_Pro___Gymandnutrition_comUITests.swift"; sourceTree = "<group>"; };
+		F59A8DF91E91D99D00498FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F59A8DD11E91D99C00498FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A8DE51E91D99D00498FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A8DF01E91D99D00498FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F59A8DCB1E91D99C00498FEF = {
+			isa = PBXGroup;
+			children = (
+				F59A8DD61E91D99C00498FEF /* FCC Pro | Gymandnutrition.com */,
+				F59A8DEB1E91D99D00498FEF /* FCC Pro | Gymandnutrition.comTests */,
+				F59A8DF61E91D99D00498FEF /* FCC Pro | Gymandnutrition.comUITests */,
+				F59A8DD51E91D99C00498FEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F59A8DD51E91D99C00498FEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F59A8DD41E91D99C00498FEF /* FCC Pro | Gymandnutrition.com.app */,
+				F59A8DE81E91D99D00498FEF /* FCC Pro | Gymandnutrition.comTests.xctest */,
+				F59A8DF31E91D99D00498FEF /* FCC Pro | Gymandnutrition.comUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F59A8DD61E91D99C00498FEF /* FCC Pro | Gymandnutrition.com */ = {
+			isa = PBXGroup;
+			children = (
+				F59A8DD71E91D99C00498FEF /* AppDelegate.swift */,
+				F59A8DD91E91D99C00498FEF /* ViewController.swift */,
+				F59A8DDB1E91D99C00498FEF /* Main.storyboard */,
+				F59A8DDE1E91D99C00498FEF /* Assets.xcassets */,
+				F59A8DE01E91D99C00498FEF /* LaunchScreen.storyboard */,
+				F59A8DE31E91D99C00498FEF /* Info.plist */,
+			);
+			path = "FCC Pro | Gymandnutrition.com";
+			sourceTree = "<group>";
+		};
+		F59A8DEB1E91D99D00498FEF /* FCC Pro | Gymandnutrition.comTests */ = {
+			isa = PBXGroup;
+			children = (
+				F59A8DEC1E91D99D00498FEF /* FCC_Pro___Gymandnutrition_comTests.swift */,
+				F59A8DEE1E91D99D00498FEF /* Info.plist */,
+			);
+			path = "FCC Pro | Gymandnutrition.comTests";
+			sourceTree = "<group>";
+		};
+		F59A8DF61E91D99D00498FEF /* FCC Pro | Gymandnutrition.comUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F59A8DF71E91D99D00498FEF /* FCC_Pro___Gymandnutrition_comUITests.swift */,
+				F59A8DF91E91D99D00498FEF /* Info.plist */,
+			);
+			path = "FCC Pro | Gymandnutrition.comUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F59A8DD31E91D99C00498FEF /* FCC Pro | Gymandnutrition.com */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59A8DFC1E91D99D00498FEF /* Build configuration list for PBXNativeTarget "FCC Pro | Gymandnutrition.com" */;
+			buildPhases = (
+				F59A8DD01E91D99C00498FEF /* Sources */,
+				F59A8DD11E91D99C00498FEF /* Frameworks */,
+				F59A8DD21E91D99C00498FEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FCC Pro | Gymandnutrition.com";
+			productName = "FCC Pro | Gymandnutrition.com";
+			productReference = F59A8DD41E91D99C00498FEF /* FCC Pro | Gymandnutrition.com.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F59A8DE71E91D99D00498FEF /* FCC Pro | Gymandnutrition.comTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59A8DFF1E91D99D00498FEF /* Build configuration list for PBXNativeTarget "FCC Pro | Gymandnutrition.comTests" */;
+			buildPhases = (
+				F59A8DE41E91D99D00498FEF /* Sources */,
+				F59A8DE51E91D99D00498FEF /* Frameworks */,
+				F59A8DE61E91D99D00498FEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F59A8DEA1E91D99D00498FEF /* PBXTargetDependency */,
+			);
+			name = "FCC Pro | Gymandnutrition.comTests";
+			productName = "FCC Pro | Gymandnutrition.comTests";
+			productReference = F59A8DE81E91D99D00498FEF /* FCC Pro | Gymandnutrition.comTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F59A8DF21E91D99D00498FEF /* FCC Pro | Gymandnutrition.comUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59A8E021E91D99D00498FEF /* Build configuration list for PBXNativeTarget "FCC Pro | Gymandnutrition.comUITests" */;
+			buildPhases = (
+				F59A8DEF1E91D99D00498FEF /* Sources */,
+				F59A8DF01E91D99D00498FEF /* Frameworks */,
+				F59A8DF11E91D99D00498FEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F59A8DF51E91D99D00498FEF /* PBXTargetDependency */,
+			);
+			name = "FCC Pro | Gymandnutrition.comUITests";
+			productName = "FCC Pro | Gymandnutrition.comUITests";
+			productReference = F59A8DF31E91D99D00498FEF /* FCC Pro | Gymandnutrition.comUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F59A8DCC1E91D99C00498FEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Gymandnutrition.com;
+				TargetAttributes = {
+					F59A8DD31E91D99C00498FEF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4TG42NPL92;
+						ProvisioningStyle = Automatic;
+					};
+					F59A8DE71E91D99D00498FEF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4TG42NPL92;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F59A8DD31E91D99C00498FEF;
+					};
+					F59A8DF21E91D99D00498FEF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4TG42NPL92;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F59A8DD31E91D99C00498FEF;
+					};
+				};
+			};
+			buildConfigurationList = F59A8DCF1E91D99C00498FEF /* Build configuration list for PBXProject "FCC Pro | Gymandnutrition.com" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F59A8DCB1E91D99C00498FEF;
+			productRefGroup = F59A8DD51E91D99C00498FEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F59A8DD31E91D99C00498FEF /* FCC Pro | Gymandnutrition.com */,
+				F59A8DE71E91D99D00498FEF /* FCC Pro | Gymandnutrition.comTests */,
+				F59A8DF21E91D99D00498FEF /* FCC Pro | Gymandnutrition.comUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F59A8DD21E91D99C00498FEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59A8DE21E91D99C00498FEF /* LaunchScreen.storyboard in Resources */,
+				F59A8DDF1E91D99C00498FEF /* Assets.xcassets in Resources */,
+				F59A8DDD1E91D99C00498FEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A8DE61E91D99D00498FEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A8DF11E91D99D00498FEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F59A8DD01E91D99C00498FEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59A8DDA1E91D99C00498FEF /* ViewController.swift in Sources */,
+				F59A8DD81E91D99C00498FEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A8DE41E91D99D00498FEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59A8DED1E91D99D00498FEF /* FCC_Pro___Gymandnutrition_comTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A8DEF1E91D99D00498FEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59A8DF81E91D99D00498FEF /* FCC_Pro___Gymandnutrition_comUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F59A8DEA1E91D99D00498FEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F59A8DD31E91D99C00498FEF /* FCC Pro | Gymandnutrition.com */;
+			targetProxy = F59A8DE91E91D99D00498FEF /* PBXContainerItemProxy */;
+		};
+		F59A8DF51E91D99D00498FEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F59A8DD31E91D99C00498FEF /* FCC Pro | Gymandnutrition.com */;
+			targetProxy = F59A8DF41E91D99D00498FEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F59A8DDB1E91D99C00498FEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59A8DDC1E91D99C00498FEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F59A8DE01E91D99C00498FEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59A8DE11E91D99C00498FEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F59A8DFA1E91D99D00498FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F59A8DFB1E91D99D00498FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F59A8DFD1E91D99D00498FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4TG42NPL92;
+				INFOPLIST_FILE = "FCC Pro | Gymandnutrition.com/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gymandnutrition.com.FCC-Pro---Gymandnutrition-com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F59A8DFE1E91D99D00498FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4TG42NPL92;
+				INFOPLIST_FILE = "FCC Pro | Gymandnutrition.com/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gymandnutrition.com.FCC-Pro---Gymandnutrition-com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F59A8E001E91D99D00498FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4TG42NPL92;
+				INFOPLIST_FILE = "FCC Pro | Gymandnutrition.comTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gymandnutrition.com.FCC-Pro---Gymandnutrition-comTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FCC Pro | Gymandnutrition.com.app/FCC Pro | Gymandnutrition.com";
+			};
+			name = Debug;
+		};
+		F59A8E011E91D99D00498FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4TG42NPL92;
+				INFOPLIST_FILE = "FCC Pro | Gymandnutrition.comTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gymandnutrition.com.FCC-Pro---Gymandnutrition-comTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FCC Pro | Gymandnutrition.com.app/FCC Pro | Gymandnutrition.com";
+			};
+			name = Release;
+		};
+		F59A8E031E91D99D00498FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4TG42NPL92;
+				INFOPLIST_FILE = "FCC Pro | Gymandnutrition.comUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gymandnutrition.com.FCC-Pro---Gymandnutrition-comUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "FCC Pro | Gymandnutrition.com";
+			};
+			name = Debug;
+		};
+		F59A8E041E91D99D00498FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4TG42NPL92;
+				INFOPLIST_FILE = "FCC Pro | Gymandnutrition.comUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gymandnutrition.com.FCC-Pro---Gymandnutrition-comUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "FCC Pro | Gymandnutrition.com";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F59A8DCF1E91D99C00498FEF /* Build configuration list for PBXProject "FCC Pro | Gymandnutrition.com" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59A8DFA1E91D99D00498FEF /* Debug */,
+				F59A8DFB1E91D99D00498FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59A8DFC1E91D99D00498FEF /* Build configuration list for PBXNativeTarget "FCC Pro | Gymandnutrition.com" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59A8DFD1E91D99D00498FEF /* Debug */,
+				F59A8DFE1E91D99D00498FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F59A8DFF1E91D99D00498FEF /* Build configuration list for PBXNativeTarget "FCC Pro | Gymandnutrition.comTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59A8E001E91D99D00498FEF /* Debug */,
+				F59A8E011E91D99D00498FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F59A8E021E91D99D00498FEF /* Build configuration list for PBXNativeTarget "FCC Pro | Gymandnutrition.comUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59A8E031E91D99D00498FEF /* Debug */,
+				F59A8E041E91D99D00498FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F59A8DCC1E91D99C00498FEF /* Project object */;
+}
