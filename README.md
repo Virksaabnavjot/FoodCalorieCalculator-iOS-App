@@ -6,3 +6,7 @@ FCC stands for Food Calorie Calculator
 
 
 <img src ="https://github.com/Virksaabnavjot/FCC-Pro-Gymandnutrition.com/blob/master/Wireframes/Screen%202.png" />
+
+
+
+Copyrights - Navjot Singh Virk (https://navjot.mrvirk.com & https://mrvirk.com)
